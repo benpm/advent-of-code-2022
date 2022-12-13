@@ -3,6 +3,8 @@ import numpy as np
 import scipy.signal as sp
 from sys import argv
 from collections import defaultdict
+import re
+from rich.pretty import pprint
 
 assert len(argv) == 4, "args: [part A/B] [example? t/f] [submit? t/f]"
 assert argv[1] in ['A', 'B'], "part must be A or B"
