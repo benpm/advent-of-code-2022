@@ -5,6 +5,16 @@
     "version": "0.2.0",
     "configurations": [
         {
+            "name": "A example",
+            "type": "python",
+            "request": "launch",
+            "program": "${file}",
+            "console": "integratedTerminal",
+            "args": ["A", "t", "f"],
+            "cwd": "${fileDirname}",
+            "justMyCode": true
+        },
+        {
             "name": "B example",
             "type": "python",
             "request": "launch",
